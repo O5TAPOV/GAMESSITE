@@ -1,0 +1,203 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(211, 211, 211);
+}
+
+h1 {
+    color: rgb(121, 121, 121);
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 0 220px;
+}
+
+.top {
+    padding-top: 40px;
+    margin-bottom: -10px;
+}
+
+.top-div {
+    padding-bottom: 150px;
+}
+
+div {
+    background: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    font-size: 18px;
+}
+
+h3 {
+    color: rgb(230, 3, 3);
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.series-games h3 {
+    text-align: center;
+}
+
+/* Хедер */
+.header {
+    padding: 10px 16px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(253, 30, 30);
+    font-size: 20px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-span {
+    color: rgb(230, 3, 3);
+}
+
+.nazi {
+    color: rgb(146, 0, 0);
+}
+
+.Home {
+    margin: 40px 250px;
+}
+
+/* IMG */
+img {
+    width: 250px;
+    height: 350px;
+}
+
+.img {
+    float: left;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.system-characteristics {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.about-game-div {
+    padding-top: 10px;
+}
+
+/* Кнопка */
+.button-div {
+    padding: 1px;
+    margin-bottom: 30px;
+}
+a.back-button {
+    display: inline;
+    color:rgb(240, 240, 240);; 
+    text-decoration: none; 
+    user-select: none;
+    background: rgb(19, 240, 19);
+    padding: 20px 30px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+a.back-button:hover { 
+    background: rgb(4, 255, 4); 
+    color: rgb(255, 255, 255);
+}
+a.back-button:active { 
+    background: rgb(6, 173, 6);
+    color: rgb(156, 156, 156);
+}
+
+.button-div {
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+.button-div-series {
+    padding: 1px;
+    margin-bottom: 30px;
+}
+
+.p-button {
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+a.back-button-series {
+    display: inline;
+    color:rgb(240, 240, 240);; 
+    text-decoration: none; 
+    user-select: none;
+    background: rgb(218, 1, 1);
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+a.back-button-series:hover { 
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+a.back-button-series:active { 
+    background: rgb(146, 0, 0);
+    color: rgb(156, 156, 156);
+}
+
+.p-button-series {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.series-games p span {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.button-div-series p {
+    font-size: 18px;
+    margin-top: 5px;
+    padding-bottom: 50px;
+}
+
+.about-game-div {
+    margin-top: -50px;    
+}
+
+.about-game-div p {
+    margin-bottom: -5px;
+}
+
+.about-game-div-consoleGame {
+    margin-top: 50px;
+}
