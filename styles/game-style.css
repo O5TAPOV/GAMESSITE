@@ -219,7 +219,7 @@ a.back-button-series:active {
     }
 
     section {
-        margin: auto 200px;
+        margin: auto 100px;
     }
 
     .top {
@@ -281,8 +281,14 @@ a.back-button-series:active {
 }
 
 @media screen and (max-width: 1080px) {
+    
+    .header {
+        font-size: 10px;
+    }
+        
     section {
-        margin: auto 150px;
+        margin: auto 15px;
+        font-size: 6px
     }
 
     .top {
