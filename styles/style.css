@@ -153,8 +153,8 @@ a {
     }
 
     .game-genre-img, .game-genre-img-top {
-        width: 300px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
     }
 
     .game-genre-text, .game-genre-text-top {
@@ -171,15 +171,20 @@ a {
 
     .header {
         padding: 14px 20px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .name-span, .nazi {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     section {
-        margin: auto 105px;
+        margin: auto 50px;
+    }
+    
+    .game-genre-img, .game-genre-img-top {
+        width: 200px;
+        height: 300px;
     }
 
     .game-genre-top {
