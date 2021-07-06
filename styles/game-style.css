@@ -201,3 +201,103 @@ a.back-button-series:active {
 .about-game-div-consoleGame {
     margin-top: 50px;
 }
+
+
+@media screen and (max-width: 1920px) {
+
+    .header {
+        padding: 20px 26px;
+        font-size: 32px;
+    }
+
+    .name-span {
+        font-size: 32px;
+    }
+
+    .nazi {
+        font-size: 24px;
+    }
+
+    section {
+        margin: auto 200px;
+    }
+
+    .top {
+        padding-top: 80px;
+        margin-bottom: -10px;
+    }
+
+    .top-div h1 {
+        font-size: 32px;
+    }
+
+    span, p {
+        font-size: 24px;
+    }
+
+    img {
+        width: 350px;
+        height: 450px;
+    }
+
+    .system-characteristics span {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    a.back-button {
+        padding: 25px 35px;;
+    }
+
+    a.back-button-series {
+        padding: 15px 20px;
+    }
+
+    .button-div {
+        padding: 1px;
+        margin-bottom: 20px;
+    }
+
+    .button-div-series {
+        padding: 1px;
+        margin-bottom: 40px;
+    }
+
+    .p-button {
+        font-size: 24px;
+    }
+
+    .button-div-series p {
+        font-size: 20px;
+    }
+
+    .about-game-div p, .about-game-div-consoleGame p {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    section {
+        margin: auto 150px;
+    }
+
+    .top {
+        margin-top: 80px;
+    }
+
+    .top-div, .system-characteristics {
+        float: left;
+    }
+
+    .system-characteristics {
+        margin-left: 30px
+    }
+
+    .series-games p span {
+        margin: auto;
+    }
+}
