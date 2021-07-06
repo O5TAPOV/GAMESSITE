@@ -127,10 +127,66 @@ a {
     padding: 16px 32px;
 }
 
-.right {
+.location {
     float: right;
 }
 
 .contact {
+    width: 250px;
     height: 250px;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+    .header {
+        padding: 20px 26px;
+        font-size: 30px;
+    }
+
+    .name-span, .nazi {
+        font-size: 30px;
+    }
+
+    section {
+        margin: auto 200px;
+    }
+
+    .game-genre-img, .game-genre-img-top {
+        width: 300px;
+        height: 400px;
+    }
+
+    .game-genre-text, .game-genre-text-top {
+        font-size: 24px;
+        padding: 20px 36px;
+    }
+
+    .screen {
+        margin-left: 285px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .header {
+        padding: 14px 20px;
+        font-size: 24px;
+    }
+
+    .name-span, .nazi {
+        font-size: 24px;
+    }
+
+    section {
+        margin: auto 105px;
+    }
+
+    .game-genre-top {
+        padding-top: 15px;
+    }
+
+    .location {
+        clear: both;
+    }
 }
