@@ -283,8 +283,8 @@ a.back-button-series:active {
 @media screen and (max-width: 1080px) {
     
     img {
-        width: 100px;
-        heigh: 200px;
+        width: 50px;
+        heigh: 100px;
     }
     
     .header {
@@ -299,10 +299,6 @@ a.back-button-series:active {
 
     .top {
         margin-top: 80px;
-    }
-
-    .top-div, .system-characteristics {
-        float: left;
     }
 
     .system-characteristics {
