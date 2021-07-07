@@ -137,7 +137,7 @@ a {
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 375px) {
 
     .header {
         padding: 20px 26px;
@@ -164,34 +164,5 @@ a {
 
     .screen {
         margin-left: 285px;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-
-    .header {
-        padding: 14px 20px;
-        font-size: 20px;
-    }
-
-    .name-span, .nazi {
-        font-size: 20px;
-    }
-
-    section {
-        margin: auto;
-    }
-    
-    .game-genre-img, .game-genre-img-top {
-        width: 200px;
-        height: 300px;
-    }
-
-    .game-genre-top {
-        padding-top: 15px;
-    }
-
-    .location {
-        clear: both;
     }
 }
