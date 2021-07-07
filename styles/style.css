@@ -161,8 +161,8 @@ a {
         font-size: 24px;
         padding: 20px 36px;
     }
-
-    .screen {
-        margin-left: 285px;
+    
+    .game-genre-top {
+        padding-top: 15px;
     }
 }
